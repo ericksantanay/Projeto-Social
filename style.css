@@ -34,6 +34,16 @@ main{
     top: 80px;
     left: 22px;
     width: 268px;
-    height: 470px;
-    
+    height: 470px; 
+}
+
+#redes{
+    text-align: right;
+}
+
+img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.409);
 }
