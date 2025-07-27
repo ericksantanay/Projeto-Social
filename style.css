@@ -39,6 +39,7 @@ main{
 
 #redes{
     text-align: right;
+    
 }
 
 img{
@@ -46,4 +47,12 @@ img{
     border-radius: 50%;
     margin: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.409);
+    box-sizing: border-box;
+}
+
+section#redes img:hover{
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    border: 2px solid white;
+    transition: 0.5s ;
+    transform: translate3d(-3px -3px);
 }
